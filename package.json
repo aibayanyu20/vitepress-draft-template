@@ -1,0 +1,20 @@
+{
+  "name": "vitepress-draft-template",
+  "version": "1.0.0",
+  "description": "this is vitepress draft template",
+  "packageManager": "pnpm@7.1.3",
+  "scripts": {
+    "dev": "vitepress dev docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "1.0.0-draft.4"
+  },
+  "pnpm":{
+    "peerDependencyRules":{
+      "ignoreMissing":["react","@types/react","react-dom"]
+    }
+  }
+}
